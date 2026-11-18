@@ -1,0 +1,19 @@
+11:52:31 Loading and checking source data
+11:52:36 Calculating sample-specific ssGSEA ES scores
+11:52:48 Running PCA, ICA, t-SNE, UMAP and clustering
+11:53:09 Comparing genes and metabolic pathways
+11:53:26 Training models with nested development evaluation and an untouched holdout
+  LogisticRegression fold 1: AUC=0.969, n=57
+  LogisticRegression fold 2: AUC=0.964, n=54
+  LogisticRegression fold 3: AUC=0.960, n=53
+  LogisticRegression fold 4: AUC=1.000, n=55
+  LogisticRegression fold 5: AUC=0.983, n=55
+  LinearSVM fold 1: AUC=0.964, n=57
+  LinearSVM fold 2: AUC=0.962, n=54
+  LinearSVM fold 3: AUC=0.929, n=53
+  LinearSVM fold 4: AUC=0.995, n=55
+  LinearSVM fold 5: AUC=0.988, n=55
+  RBFSVM fold 1: AUC=0.945, n=57
+  RBFSVM fold 2: AUC=0.963, n=54
+  RBFSVM fold 3: AUC=0.929, n=53
+  RBFSVM fold 4: AUC=0.995, n=55

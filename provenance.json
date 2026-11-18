@@ -1,0 +1,128 @@
+[
+  {
+    "file": "HALLMARK_CHOLESTEROL_HOMEOSTASIS.json",
+    "url": "https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_CHOLESTEROL_HOMEOSTASIS.json",
+    "bytes": 904,
+    "sha256": "977b71b7da8a7a36e51c4a77defb1ad67c364f86d566575bf754812ba07c3ebe"
+  },
+  {
+    "file": "HALLMARK_FATTY_ACID_METABOLISM.json",
+    "url": "https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_FATTY_ACID_METABOLISM.json",
+    "bytes": 1565,
+    "sha256": "30e71ab10406e5313e947271777075b16ec07a8a4fb728931c607691a0504452"
+  },
+  {
+    "file": "gencode.v36.annotation.gtf.gene.probemap",
+    "url": "https://gdc-hub.s3.us-east-1.amazonaws.com/download/gencode.v36.annotation.gtf.gene.probemap",
+    "bytes": 3206945,
+    "sha256": "f027752d663b1da74f4113998bf008e6ebecfa3732607513e027bb6eb1f635b5"
+  },
+  {
+    "file": ".TCGA-LUAD.star_tpm.tsv.gz.ZRK466.365ifk",
+    "url": "User-supplied Hallmark Hypoxia MSigDB v2026.2 or reference file",
+    "bytes": 121372672,
+    "sha256": "f9b64d33d77203200fe471a22dfcdc46b095e9f46603a5bbf46e9dce1ced7dc9"
+  },
+  {
+    "file": "HALLMARK_REACTIVE_OXYGEN_SPECIES_PATHWAY.json",
+    "url": "https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_REACTIVE_OXYGEN_SPECIES_PATHWAY.json",
+    "bytes": 712,
+    "sha256": "0461f8f3a3e0083b7aabcefc2dc2715b845ceeb3591311d3df1c1325dceaec4c"
+  },
+  {
+    "file": "HALLMARK_ADIPOGENESIS.json",
+    "url": "https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_ADIPOGENESIS.json",
+    "bytes": 1886,
+    "sha256": "0dbefbe866fa5e94a73ec03595df2102b96c976490340eb284009784fd46cb1d"
+  },
+  {
+    "file": "HALLMARK_OXIDATIVE_PHOSPHORYLATION.json",
+    "url": "https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_OXIDATIVE_PHOSPHORYLATION.json",
+    "bytes": 2009,
+    "sha256": "7c4649d1755dc245edc484ade1421109e1d4c7507c00f0c6d84c3b4ec4c1cc6a"
+  },
+  {
+    "file": "TCGA-LUAD.survival.tsv.json",
+    "url": "https://gdc-hub.s3.us-east-1.amazonaws.com/download/TCGA-LUAD.survival.tsv.json",
+    "bytes": 357,
+    "sha256": "057a92086db9dce31c85782d61420201f86889789a9d815e6a90f7d83dbe1868"
+  },
+  {
+    "file": "HALLMARK_MTORC1_SIGNALING.json",
+    "url": "https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_MTORC1_SIGNALING.json",
+    "bytes": 1889,
+    "sha256": "6b5e554eeec3b5e7b950320259f3e056ac0f980819fb3106347cfbc87b4cedea"
+  },
+  {
+    "file": "HALLMARK_BILE_ACID_METABOLISM.json",
+    "url": "https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_BILE_ACID_METABOLISM.json",
+    "bytes": 1227,
+    "sha256": "d2bbad5e052c87c313ab098b6b91d0e852ce6f9851612479e6b41c58f474c231"
+  },
+  {
+    "file": "TCGA-LUAD.clinical.tsv.gz",
+    "url": "https://gdc-hub.s3.us-east-1.amazonaws.com/download/TCGA-LUAD.clinical.tsv.gz",
+    "bytes": 149532,
+    "sha256": "3361a8054624f9126232974b020f388a38e56c7d0bc12e6b9e9fb9d5757845de"
+  },
+  {
+    "file": ".TCGA-LUAD.star_tpm.tsv.gz.ZRK466.365ifk.ZJfJ47",
+    "url": "User-supplied Hallmark Hypoxia MSigDB v2026.2 or reference file",
+    "bytes": 112459776,
+    "sha256": "3822df30e59dc235ef8ef02ecb5dd9fadb00b5ef22cc7b14b5d70cac38ba9ef7"
+  },
+  {
+    "file": ".TCGA-LUAD.star_tpm.tsv.gz.JuTMOI",
+    "url": "User-supplied Hallmark Hypoxia MSigDB v2026.2 or reference file",
+    "bytes": 98041856,
+    "sha256": "88b385642301e58e3e985667b6c481a1996c12e04662bf81460e20b797d89bf3"
+  },
+  {
+    "file": "TCGA-LUAD.survival.tsv.gz",
+    "url": "https://gdc-hub.s3.us-east-1.amazonaws.com/download/TCGA-LUAD.survival.tsv.gz",
+    "bytes": 5253,
+    "sha256": "edbf9e416dd6dafa4a4fae9174a7a9e1909bc0b143d9fc80b1962b1172bd2d6c"
+  },
+  {
+    "file": ".TCGA-LUAD.star_tpm.tsv.gz.ZRK466",
+    "url": "User-supplied Hallmark Hypoxia MSigDB v2026.2 or reference file",
+    "bytes": 138674176,
+    "sha256": "bd8a8ba9fc95e88a99f6509a3824dfe5b18b81a46626ab7b1b8d28a688df732c"
+  },
+  {
+    "file": "HALLMARK_GLYCOLYSIS.json",
+    "url": "https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_GLYCOLYSIS.json",
+    "bytes": 1844,
+    "sha256": "050e4271ec74110406b75903ac7783b1918069e2e30e65250a49e6cb4dcc32bd"
+  },
+  {
+    "file": "TCGA-LUAD.star_tpm.tsv.gz",
+    "url": "https://gdc-hub.s3.us-east-1.amazonaws.com/download/TCGA-LUAD.star_tpm.tsv.gz",
+    "bytes": 168463406,
+    "sha256": "460dab5f84d8fa7da8ef17c913d2816cd66a34e837908e64e0b3c7d65e3d40ee"
+  },
+  {
+    "file": "HALLMARK_HYPOXIA.v2026.2.Hs.gmt",
+    "url": "User-supplied Hallmark Hypoxia MSigDB v2026.2 or reference file",
+    "bytes": 1244,
+    "sha256": "05d0e179e7d5b632a8dbcb96f9bf8dea7adbd1d2f76ee0c8332918dab7306dc8"
+  },
+  {
+    "file": "HALLMARK_PEROXISOME.json",
+    "url": "https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_PEROXISOME.json",
+    "bytes": 1141,
+    "sha256": "09d775900df3ccd4c373f5b9d19941f76a15822625449a12473d56fa927e2de4"
+  },
+  {
+    "file": "hallmark_metabolic.json",
+    "url": "User-supplied Hallmark Hypoxia MSigDB v2026.2 or reference file",
+    "bytes": 1844,
+    "sha256": "050e4271ec74110406b75903ac7783b1918069e2e30e65250a49e6cb4dcc32bd"
+  },
+  {
+    "file": "TCGA-LUAD.star_tpm.tsv.json",
+    "url": "https://gdc-hub.s3.us-east-1.amazonaws.com/download/TCGA-LUAD.star_tpm.tsv.json",
+    "bytes": 824,
+    "sha256": "30ac6bf725e4f878483bc1b1e4d93d9c45373ec66faf8f21f72280336fc8d1a0"
+  }
+]

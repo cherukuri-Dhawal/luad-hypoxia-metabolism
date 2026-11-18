@@ -1,0 +1,163 @@
+{
+  "cohort": 516,
+  "groups": {
+    "Low": 172,
+    "High": 172,
+    "Intermediate": 172
+  },
+  "descriptive_tertile_cutoffs": [
+    22217.81938197266,
+    22690.49755950917
+  ],
+  "scoring": "GSEApy ssGSEA raw ES; ranks; alpha 0.25; no cohort-dependent NES",
+  "external_validation": "NOT RUN: independent cohort not supplied",
+  "checks": {
+    "unique_patient_count": 516,
+    "single_sample_score_invariance": true
+  },
+  "exploration": {
+    "best_cluster": "KMeans_8",
+    "pca_first_two_variance": 0.1772916316986084
+  },
+  "biology": {
+    "genes_tested": 23710,
+    "differing_genes_outside_signature": 2137,
+    "differing_metabolic_genes": 80,
+    "pathways_significant_fdr": 7
+  },
+  "modelling": {
+    "selected_model": "LogisticRegression",
+    "selection_basis": "highest development nested CV mean ROC AUC; final test not used for selection",
+    "development_patients": 412,
+    "test_patients_reserved": 104,
+    "development_extremes_used": 276,
+    "test_extremes_evaluated": 69,
+    "test_intermediate_not_evaluated": 35,
+    "metabolic_input_genes_outside_hypoxia": 917,
+    "selected_genes": 150,
+    "best_parameters": {
+      "model__C": 1
+    },
+    "frozen_cutoffs": [
+      22215.628358431764,
+      22690.452030444387
+    ],
+    "holdout": {
+      "n": 69,
+      "n_high": 35,
+      "accuracy": 0.8985507246376812,
+      "balanced_accuracy": 0.8978991596638655,
+      "macro_f1": 0.8982086406743941,
+      "roc_auc": 0.9722689075630253,
+      "confusion_matrix": [
+        [
+          29,
+          5
+        ],
+        [
+          2,
+          33
+        ]
+      ],
+      "dummy": {
+        "n": 69,
+        "n_high": 35,
+        "accuracy": 0.5072463768115942,
+        "balanced_accuracy": 0.5,
+        "macro_f1": 0.33653846153846156,
+        "roc_auc": 0.5,
+        "confusion_matrix": [
+          [
+            0,
+            34
+          ],
+          [
+            0,
+            35
+          ]
+        ]
+      },
+      "clinical_only_baseline": {
+        "n": 69,
+        "n_high": 35,
+        "accuracy": 0.5362318840579711,
+        "balanced_accuracy": 0.5365546218487395,
+        "macro_f1": 0.5361344537815126,
+        "roc_auc": 0.47815126050420165,
+        "confusion_matrix": [
+          [
+            19,
+            15
+          ],
+          [
+            17,
+            18
+          ]
+        ]
+      },
+      "auc_bootstrap_95CI": [
+        0.9368633548321048,
+        0.9941176470588234
+      ]
+    },
+    "external_validation": "pending",
+    "integrity_checks": {
+      "development_test_disjoint": true,
+      "no_scoring_genes_in_inputs": true,
+      "no_scoring_genes_in_selected": true,
+      "frozen_training_test_patient_disjoint": true,
+      "roundtrip_predictions_equal": true
+    }
+  },
+  "survival": {
+    "survival_n": 503,
+    "death_events": 182,
+    "excluded_no_valid_positive_followup": 13,
+    "logrank_p": 0.00010616179921714737,
+    "cox_complete_case_n": 485,
+    "cox_death_events": 177,
+    "cox_hypoxia_HR_per_SD": 1.2716421230701436,
+    "cox_hypoxia_HR_CI95": [
+      1.0955454667695435,
+      1.4760443434033272
+    ],
+    "cox_hypoxia_p": 0.0015784914154322502,
+    "cox_adjustment": "age, sex, stage categorical; penalizer 0.01",
+    "PH_hypoxia_p": 0.37805331737754944,
+    "missing_covariates_in_survival": {
+      "age": 10,
+      "sex": 0,
+      "stage": 8
+    },
+    "stage_chisquare_p": 0.021507565342485404,
+    "stage_min_expected_cell": 8.181818181818182,
+    "nuisance_PH_violations_at_05": [
+      "male",
+      "stage_3"
+    ],
+    "stratified_sensitivity": {
+      "HR_per_SD": 1.2331114701187362,
+      "CI95": [
+        1.0574796150383752,
+        1.4379132005142348
+      ],
+      "p": 0.007520606615508296,
+      "hypoxia_PH_p": 0.3864973740162875,
+      "strata": "stage and sex"
+    },
+    "warnings": [],
+    "interpretation": "Exploratory association. PH violations and missingness limit interpretation; no causal or individual clinical prognosis claim."
+  },
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "2.3.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "gseapy": "1.3.1",
+    "lifelines": "0.30.3",
+    "xgboost": "3.4.1",
+    "umap-learn": "0.5.12"
+  },
+  "python": "3.12.14",
+  "seed": 2026
+}

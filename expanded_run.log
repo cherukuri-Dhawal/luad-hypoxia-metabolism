@@ -1,0 +1,55 @@
+  ExtraTrees fold 1: AUC=0.929, n=57
+  ExtraTrees fold 2: AUC=0.940, n=54
+  ExtraTrees fold 3: AUC=0.895, n=53
+  ExtraTrees fold 4: AUC=0.956, n=55
+  ExtraTrees fold 5: AUC=0.938, n=55
+  HistGradientBoosting fold 1: AUC=0.908, n=57
+  HistGradientBoosting fold 2: AUC=0.889, n=54
+  HistGradientBoosting fold 3: AUC=0.843, n=53
+  HistGradientBoosting fold 4: AUC=0.951, n=55
+  HistGradientBoosting fold 5: AUC=0.954, n=55
+  AdaBoost fold 1: AUC=0.921, n=57
+  AdaBoost fold 2: AUC=0.935, n=54
+  AdaBoost fold 3: AUC=0.858, n=53
+  AdaBoost fold 4: AUC=0.958, n=55
+  AdaBoost fold 5: AUC=0.978, n=55
+  GradientBoosting fold 1: AUC=0.906, n=57
+  GradientBoosting fold 2: AUC=0.905, n=54
+  GradientBoosting fold 3: AUC=0.849, n=53
+  GradientBoosting fold 4: AUC=0.966, n=55
+  GradientBoosting fold 5: AUC=0.947, n=55
+  GaussianNB fold 1: AUC=0.915, n=57
+  GaussianNB fold 2: AUC=0.896, n=54
+  GaussianNB fold 3: AUC=0.845, n=53
+  GaussianNB fold 4: AUC=0.898, n=55
+  GaussianNB fold 5: AUC=0.888, n=55
+  ShrinkageLDA fold 1: AUC=0.964, n=57
+  ShrinkageLDA fold 2: AUC=0.942, n=54
+  ShrinkageLDA fold 3: AUC=0.952, n=53
+  ShrinkageLDA fold 4: AUC=0.985, n=55
+  ShrinkageLDA fold 5: AUC=0.992, n=55
+  ElasticNetLogistic fold 1: AUC=0.974, n=57
+  ElasticNetLogistic fold 2: AUC=0.964, n=54
+  ElasticNetLogistic fold 3: AUC=0.952, n=53
+  ElasticNetLogistic fold 4: AUC=0.989, n=55
+  ElasticNetLogistic fold 5: AUC=0.978, n=55
+  SGDLogistic fold 1: AUC=0.972, n=57
+  SGDLogistic fold 2: AUC=0.966, n=54
+  SGDLogistic fold 3: AUC=0.954, n=53
+  SGDLogistic fold 4: AUC=0.999, n=55
+  SGDLogistic fold 5: AUC=0.980, n=55
+               model  mean_AUC   sd_AUC  balanced_accuracy  macro_F1  accuracy
+  LogisticRegression  0.975283 0.016243           0.926916  0.926434  0.926556
+         SGDLogistic  0.974117 0.016623           0.923336  0.922732  0.922977
+  ElasticNetLogistic  0.971384 0.014261           0.904684  0.904053  0.904326
+           LinearSVM  0.967481 0.026029           0.905082  0.904002  0.904384
+        ShrinkageLDA  0.967135 0.021353           0.912091  0.911817  0.911940
+              RBFSVM  0.961963 0.026275           0.868402  0.867866  0.868003
+          ExtraTrees  0.931380 0.022878           0.846321  0.845495  0.845843
+            AdaBoost  0.929871 0.045770           0.849760  0.849058  0.849732
+        RandomForest  0.920699 0.033982           0.827905  0.827259  0.827770
+                 kNN  0.920688 0.024983           0.824127  0.821222  0.824868
+             XGBoost  0.916337 0.042636           0.827896  0.827189  0.827967
+    GradientBoosting  0.914665 0.045043           0.820336  0.819980  0.820420
+HistGradientBoosting  0.908888 0.046086           0.831344  0.831051  0.831543
+          GaussianNB  0.888215 0.026284           0.817476  0.816464  0.817010

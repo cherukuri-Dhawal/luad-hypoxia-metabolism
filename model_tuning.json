@@ -1,0 +1,262 @@
+[
+  {
+    "model": "LogisticRegression",
+    "fold": 1,
+    "parameters": {
+      "model__C": 1
+    },
+    "warnings": []
+  },
+  {
+    "model": "LogisticRegression",
+    "fold": 2,
+    "parameters": {
+      "model__C": 0.1
+    },
+    "warnings": []
+  },
+  {
+    "model": "LogisticRegression",
+    "fold": 3,
+    "parameters": {
+      "model__C": 10
+    },
+    "warnings": []
+  },
+  {
+    "model": "LogisticRegression",
+    "fold": 4,
+    "parameters": {
+      "model__C": 1
+    },
+    "warnings": []
+  },
+  {
+    "model": "LogisticRegression",
+    "fold": 5,
+    "parameters": {
+      "model__C": 1
+    },
+    "warnings": []
+  },
+  {
+    "model": "LinearSVM",
+    "fold": 1,
+    "parameters": {
+      "model__C": 0.01
+    },
+    "warnings": [
+      "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
+    ]
+  },
+  {
+    "model": "LinearSVM",
+    "fold": 2,
+    "parameters": {
+      "model__C": 0.01
+    },
+    "warnings": [
+      "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
+    ]
+  },
+  {
+    "model": "LinearSVM",
+    "fold": 3,
+    "parameters": {
+      "model__C": 0.01
+    },
+    "warnings": [
+      "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
+    ]
+  },
+  {
+    "model": "LinearSVM",
+    "fold": 4,
+    "parameters": {
+      "model__C": 0.1
+    },
+    "warnings": [
+      "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
+    ]
+  },
+  {
+    "model": "LinearSVM",
+    "fold": 5,
+    "parameters": {
+      "model__C": 0.01
+    },
+    "warnings": [
+      "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
+    ]
+  },
+  {
+    "model": "RBFSVM",
+    "fold": 1,
+    "parameters": {
+      "model__C": 10
+    },
+    "warnings": [
+      "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
+    ]
+  },
+  {
+    "model": "RBFSVM",
+    "fold": 2,
+    "parameters": {
+      "model__C": 10
+    },
+    "warnings": [
+      "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
+    ]
+  },
+  {
+    "model": "RBFSVM",
+    "fold": 3,
+    "parameters": {
+      "model__C": 10
+    },
+    "warnings": [
+      "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
+    ]
+  },
+  {
+    "model": "RBFSVM",
+    "fold": 4,
+    "parameters": {
+      "model__C": 10
+    },
+    "warnings": [
+      "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
+    ]
+  },
+  {
+    "model": "RBFSVM",
+    "fold": 5,
+    "parameters": {
+      "model__C": 10
+    },
+    "warnings": [
+      "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
+    ]
+  },
+  {
+    "model": "RandomForest",
+    "fold": 1,
+    "parameters": {
+      "model__max_depth": null
+    },
+    "warnings": []
+  },
+  {
+    "model": "RandomForest",
+    "fold": 2,
+    "parameters": {
+      "model__max_depth": 4
+    },
+    "warnings": []
+  },
+  {
+    "model": "RandomForest",
+    "fold": 3,
+    "parameters": {
+      "model__max_depth": 4
+    },
+    "warnings": []
+  },
+  {
+    "model": "RandomForest",
+    "fold": 4,
+    "parameters": {
+      "model__max_depth": null
+    },
+    "warnings": []
+  },
+  {
+    "model": "RandomForest",
+    "fold": 5,
+    "parameters": {
+      "model__max_depth": null
+    },
+    "warnings": []
+  },
+  {
+    "model": "XGBoost",
+    "fold": 1,
+    "parameters": {
+      "model__max_depth": 3
+    },
+    "warnings": []
+  },
+  {
+    "model": "XGBoost",
+    "fold": 2,
+    "parameters": {
+      "model__max_depth": 3
+    },
+    "warnings": []
+  },
+  {
+    "model": "XGBoost",
+    "fold": 3,
+    "parameters": {
+      "model__max_depth": 3
+    },
+    "warnings": []
+  },
+  {
+    "model": "XGBoost",
+    "fold": 4,
+    "parameters": {
+      "model__max_depth": 3
+    },
+    "warnings": []
+  },
+  {
+    "model": "XGBoost",
+    "fold": 5,
+    "parameters": {
+      "model__max_depth": 3
+    },
+    "warnings": []
+  },
+  {
+    "model": "kNN",
+    "fold": 1,
+    "parameters": {
+      "model__n_neighbors": 25
+    },
+    "warnings": []
+  },
+  {
+    "model": "kNN",
+    "fold": 2,
+    "parameters": {
+      "model__n_neighbors": 15
+    },
+    "warnings": []
+  },
+  {
+    "model": "kNN",
+    "fold": 3,
+    "parameters": {
+      "model__n_neighbors": 15
+    },
+    "warnings": []
+  },
+  {
+    "model": "kNN",
+    "fold": 4,
+    "parameters": {
+      "model__n_neighbors": 15
+    },
+    "warnings": []
+  },
+  {
+    "model": "kNN",
+    "fold": 5,
+    "parameters": {
+      "model__n_neighbors": 15
+    },
+    "warnings": []
+  }
+]

@@ -1,0 +1,16 @@
+{"cohort":"GDC TCGA Lung Adenocarcinoma (LUAD)",
+ "url":"https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-400, https://api.gdc.cancer.gov/data/",
+ "dataSubType":"gene expression RNAseq",
+ ":probeMap":"gencode.v36.annotation.gtf.gene.probemap",
+ "dataProducer":"Genomic Data Commons",
+ "label":"STAR - TPM",
+ "colNormalization":true,
+ "wrangling_procedure":
+ "Data from the same sample but from different vials/portions/analytes/aliquotes is averaged; all data is then log2(x+1) transformed.",
+ "PLATFORM":"Illumina",
+ "type":"genomicMatrix",
+ "wrangler":"Xena GDC ETL script",
+ "version":"05-10-2024",
+ "unit":"log2(tpm+1)",
+ "description": "More information on the GDC pipeline used to generate this data: https://docs.gdc.cancer.gov/Data/Bioinformatics_Pipelines/Expression_mRNA_Pipeline/"
+}

@@ -1,0 +1,22 @@
+{
+  "source_genes": 60660,
+  "source_samples": 589,
+  "primary_samples": 528,
+  "selected_unique_patients": 516,
+  "gene_symbols": 59427,
+  "duplicate_symbols_collapsed": 1233,
+  "expression_unit": "log2(TPM+1)",
+  "survival_coding": "0 censored/alive; 1 death; OS.time in days, checked against clinical day fields",
+  "survival_crosscheck": {
+    "0": {
+      "checked": 403,
+      "equal_days": 403
+    },
+    "1": {
+      "checked": 242,
+      "equal_days": 242
+    }
+  },
+  "sample_selection": "lexicographically first primary tumor sample per patient",
+  "symbol_collapse": "mean log2(TPM+1) across duplicate gene symbols"
+}

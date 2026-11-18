@@ -1,0 +1,39 @@
+{
+  "survival_n": 503,
+  "death_events": 182,
+  "excluded_no_valid_positive_followup": 13,
+  "logrank_p": 0.00010616179921714737,
+  "cox_complete_case_n": 485,
+  "cox_death_events": 177,
+  "cox_hypoxia_HR_per_SD": 1.2716421230701436,
+  "cox_hypoxia_HR_CI95": [
+    1.0955454667695435,
+    1.4760443434033272
+  ],
+  "cox_hypoxia_p": 0.0015784914154322502,
+  "cox_adjustment": "age, sex, stage categorical; penalizer 0.01",
+  "PH_hypoxia_p": 0.37805331737754944,
+  "missing_covariates_in_survival": {
+    "age": 10,
+    "sex": 0,
+    "stage": 8
+  },
+  "stage_chisquare_p": 0.021507565342485404,
+  "stage_min_expected_cell": 8.181818181818182,
+  "nuisance_PH_violations_at_05": [
+    "male",
+    "stage_3"
+  ],
+  "stratified_sensitivity": {
+    "HR_per_SD": 1.2331114701187362,
+    "CI95": [
+      1.0574796150383752,
+      1.4379132005142348
+    ],
+    "p": 0.007520606615508296,
+    "hypoxia_PH_p": 0.3864973740162875,
+    "strata": "stage and sex"
+  },
+  "warnings": [],
+  "interpretation": "Exploratory association. PH violations and missingness limit interpretation; no causal or individual clinical prognosis claim."
+}

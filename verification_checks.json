@@ -1,0 +1,11 @@
+{
+  "ssgsea_matches_independent_weighted_area_formula": true,
+  "raw_ES_sample_independent": true,
+  "BH_known_example": true,
+  "patient_split_disjoint": true,
+  "selected_genes_exclude_score_genes": true,
+  "inference_does_not_fit_or_mutate_pipeline": true,
+  "one_score_per_patient": true,
+  "all_test_predictions_from_reserved_patients": true,
+  "reported_results_match_predictions": true
+}

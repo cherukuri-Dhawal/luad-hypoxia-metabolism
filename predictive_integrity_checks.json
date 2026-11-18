@@ -1,0 +1,7 @@
+{
+  "development_test_disjoint": true,
+  "no_scoring_genes_in_inputs": true,
+  "no_scoring_genes_in_selected": true,
+  "frozen_training_test_patient_disjoint": true,
+  "roundtrip_predictions_equal": true
+}

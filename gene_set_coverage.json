@@ -1,0 +1,19 @@
+{
+  "hypoxia_total": 200,
+  "hypoxia_matched": 199,
+  "hypoxia_unmatched": [
+    "HACL2"
+  ],
+  "alias_policy": "no unverified alias substitution; unmatched genes omitted and reported",
+  "metabolic_sets": {
+    "HALLMARK_ADIPOGENESIS": 200,
+    "HALLMARK_BILE_ACID_METABOLISM": 112,
+    "HALLMARK_CHOLESTEROL_HOMEOSTASIS": 74,
+    "HALLMARK_FATTY_ACID_METABOLISM": 158,
+    "HALLMARK_GLYCOLYSIS": 200,
+    "HALLMARK_MTORC1_SIGNALING": 200,
+    "HALLMARK_OXIDATIVE_PHOSPHORYLATION": 200,
+    "HALLMARK_PEROXISOME": 104,
+    "HALLMARK_REACTIVE_OXYGEN_SPECIES_PATHWAY": 49
+  }
+}

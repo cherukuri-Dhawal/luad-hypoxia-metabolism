@@ -1,0 +1,85 @@
+{
+  "selected_model": "SGDLogistic",
+  "selection_basis": "highest development nested CV mean ROC AUC; final test not used for selection",
+  "development_patients": 412,
+  "test_patients_reserved": 104,
+  "development_extremes_used": 276,
+  "test_extremes_evaluated": 69,
+  "test_intermediate_not_evaluated": 35,
+  "metabolic_input_genes_outside_hypoxia": 917,
+  "selected_genes": 150,
+  "best_parameters": {
+    "model__alpha": 0.001
+  },
+  "frozen_cutoffs": [
+    22215.628358431764,
+    22690.452030444387
+  ],
+  "holdout": {
+    "n": 69,
+    "n_high": 35,
+    "accuracy": 0.8840579710144928,
+    "balanced_accuracy": 0.8836134453781512,
+    "macro_f1": 0.8838383838383839,
+    "roc_auc": 0.9714285714285714,
+    "confusion_matrix": [
+      [
+        29,
+        5
+      ],
+      [
+        3,
+        32
+      ]
+    ],
+    "dummy": {
+      "n": 69,
+      "n_high": 35,
+      "accuracy": 0.5072463768115942,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.33653846153846156,
+      "roc_auc": 0.5,
+      "confusion_matrix": [
+        [
+          0,
+          34
+        ],
+        [
+          0,
+          35
+        ]
+      ]
+    },
+    "clinical_only_baseline": {
+      "n": 69,
+      "n_high": 35,
+      "accuracy": 0.5362318840579711,
+      "balanced_accuracy": 0.5365546218487395,
+      "macro_f1": 0.5361344537815126,
+      "roc_auc": 0.47815126050420165,
+      "confusion_matrix": [
+        [
+          19,
+          15
+        ],
+        [
+          17,
+          18
+        ]
+      ]
+    },
+    "auc_bootstrap_95CI": [
+      0.9351851851851852,
+      0.9949324324324325
+    ]
+  },
+  "external_validation": "pending",
+  "integrity_checks": {
+    "development_test_disjoint": true,
+    "no_scoring_genes_in_inputs": true,
+    "no_scoring_genes_in_selected": true,
+    "frozen_training_test_patient_disjoint": true,
+    "roundtrip_predictions_equal": true
+  },
+  "status": "Expanded exploratory benchmark: original holdout was already inspected. Selection remains based on development CV; do not treat repeated holdout use as fresh confirmation."
+}
